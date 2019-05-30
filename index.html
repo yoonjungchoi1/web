@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body{
+      margin:0;}
+    #scene {
+      height: 800px;
+      border: 0px solid red;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .title{
+      border: 0px solid red;
+      position: relative;
+      left:50%;
+      top:50%;
+      transform: translatex(-50%) translateY(-50%);
+      text-align: center;
+      }
+      .one{background-image: url(images/index_04.png);}
+      .two{background-image: url(images/index_05.png);}
+      .three{background-image: url(images/index_06.png);}
+
+    /*footer */
+    footer{
+      height: 100px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+      .footer{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%)translateY(-50%);
+        text-align: center;
+        color: gray;
+      }
+
+      /*---NAV--*/
+      .wrap{
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        z-index: 10;
+      }
+      .logo{
+        display: inline-block;
+        height: 100px;
+        margin-left: 240px;
+      }
+      .nav{
+        position: fixed;
+        right:240px;
+        top: 40px;
+        display: inline-block;
+
+      }
+      .space{
+        margin-left: 3rem;
+      }
+      #type{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+
+      }
+      a, a:link :visited :active{
+        text-decoration: none;
+        color: gray;
+      }
+      a:hover{
+        color: red;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="wrap">
+      <div class="logo">
+        <a href="index.html"><img src="images/index_02.png"></a>
+      </div>
+      <div id="type"class="nav">
+      <a href="p01.html">EF-5 35mm F2.8 Macro IS STM</a><span class="space"></span>
+      <a href="p02.html">EF-S 18-55mm F4-5.6 IS STM</a><span class="space"></span>
+      <a href="p03.html">EF 70-300mm f4.5.6 IS II USM</a>
+    </nav>
+
+    <section id="scene" class="one">
+      <div class="title">
+        <a href="p01.html">
+          <img src="images/t01.png">
+</a>
+        </div>
+    </section>
+    <section id="scene" class="two">
+      <div class="title">
+        <a href="p02.html">
+        <img src="images/t02.png">
+      </a>
+      </div>
+    </section>
+    <section id="scene" class="three">
+      <div class="title">
+        <a href="p03.html">
+        <img src="images/t03.png">
+      </a>
+    </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        copyright 2019 Canon Korea. All right reserved.
+      </div>
+    </footer>
+
+  </body>
+</html>
